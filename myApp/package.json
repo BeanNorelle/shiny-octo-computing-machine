@@ -9,9 +9,5 @@
         "axios": "^1.1.2",
         "laravel-vite-plugin": "^0.7.5",
         "vite": "^4.0.0"
-    },
-    "dependencies": {
-        "artisan": "^0.1.2",
-        "node": "^20.3.1"
     }
 }
