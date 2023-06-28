@@ -13,7 +13,8 @@ class Character extends Model
         'name',
         'class',
         'level',
-        'image_url'
+        'image_url',
+        'description'
     ];
 
     use HasFactory;

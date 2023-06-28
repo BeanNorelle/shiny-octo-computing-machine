@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string("image_url");
             $table->string("class");
             $table->integer("level");
+            $table->string("description", 500);
             $table->timestamps();
         });
     }

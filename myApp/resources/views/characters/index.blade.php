@@ -76,8 +76,13 @@
             height: 400px;
             /* Adjust the value to control the roundness */
             padding: 10px;
-            box-shadow: 11 5px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
             /* Adjust the values to control the shadow effect */
+            transition: transform 0.3s ease;
+        }
+
+        .character-card:hover {
+            transform: scale(1.1);
         }
 
         .media-img {
